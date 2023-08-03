@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(145, 45, 103);
+}
+.container{
+    display: flex;
+    height: 100%;
+    margin-top: 200px;
+    
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+.num{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.num h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.num button{
+    border: 0;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5sec;
+    margin: 5px;
+}
+button#inc{
+    background: rgb(62, 128, 62);
+}
+button#inc:hover{
+    background: greenyellow;
+}
+button#dec{
+    background: red;
+}
+button#dec:hover{
+    background: rgb(148, 70, 70);
+}
+button#co{
+    background: black;
+    color: white;
+}
+button#co:hover{
+    background: white;
+}
